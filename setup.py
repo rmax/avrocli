@@ -38,6 +38,9 @@ setup_attrs = dict(
     setup_requires=read_requirements('requirements-setup.txt'),
     install_requires=read_requirements('requirements-install.txt'),
     include_package_data=True,
+    entry_points = {
+        'console_scripts': ['avrocli=avrocli.cli:cli'],
+    },
     license="MIT",
     keywords='avrocli',
     classifiers=[

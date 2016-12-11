@@ -1,1 +1,7 @@
 # This packages are required to install and run our package.
+click
+fastavro
+#fastavro-codecs
+snappy
+tqdm
+ujson
