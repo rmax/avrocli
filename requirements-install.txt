@@ -1,1 +1,4 @@
 # This packages are required to install and run our package.
+fastavro
+fastavro-codecs
+click
